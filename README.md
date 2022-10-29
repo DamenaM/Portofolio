@@ -2,9 +2,8 @@
 
 # Portofolio setup and mobile first
 
-> This project is a simple exercise on creating Github repository, branches and github flows.
-
-
+> This project  creating Github repository, branches and github flows
+> set up a new repository and test linter create two sections of the mobile website using the template 
 ## Built With
 
 - HTML
