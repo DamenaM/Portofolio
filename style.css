@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'Poppins-Black';
+  src: url(FontFamily/Poppins/Poppins-Black.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.Header {
+  margin: 10px 24px auto 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-width: 375px;
+  height: 104px;
+  align-items: center;
+}
+
+.mylogo {
+  margin: 58;
+  margin-left: 24;
+  height: 20px;
+  width: 76px;
+  left: 12px;
+  top: 10px;
+  font-family: 'Poppines', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  align-items: center;
+  text-align: center;
+  color: #3648e6;
+  letter-spacing: 0;
+}
+
+/* main-section-mobile */
+.main-section {
+  background-image: url('./image/Mobile-Main_3.png');
+  background-size: cover;
+  background-color: #ffff;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 614px;
+  top: 0;
+  left: -34px;
+}
+
+.main-section,
+.main-header,
+.home-text,
+.connect {
+  margin: 102px 24px auto 24px;
+  min-width: 375px;
+}
+
+.main-header {
+  margin-top: 104px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  align-items: center;
+  color: #172b4d;
+}
+
+.home-text {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  margin-top: 12px;
+}
+
+/* LET’S CONNECT */
+.connect {
+  margin-top: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+}
+
+/* social media icons */
+.social-icons {
+  margin-top: 12px;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
