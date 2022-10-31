@@ -9,7 +9,8 @@
 body {
   margin: 0;
 }
-.container{
+
+.container {
   min-width: 327px;
   width: 100%;
 }
@@ -52,7 +53,6 @@ body {
   top: 102px;
   left: 0;
 }
-
 
 .main-header {
   margin-top: 104px;
