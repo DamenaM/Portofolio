@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Poppins-Black';
+  src: url(FontFamily/Poppins/Poppins-Black.ttf);
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
@@ -10,18 +15,14 @@ body {
   margin: 0;
 }
 
-.container {
-  min-width: 327px;
-  width: 100%;
-}
-
 .Header {
+  margin: 10px 24px auto 24px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  min-width: 375px;
   height: 104px;
   align-items: center;
-  padding: 0 24px 0 24px;
 }
 
 .mylogo {
@@ -31,7 +32,7 @@ body {
   width: 76px;
   left: 12px;
   top: 10px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppines', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
@@ -44,14 +45,21 @@ body {
 /* main-section-mobile */
 .main-section {
   background-image: url('./image/Mobile-Main_3.png');
-  background-position: top;
   background-size: cover;
   background-color: #ffff;
   background-repeat: no-repeat;
   position: absolute;
   height: 614px;
-  top: 102px;
-  left: 0;
+  top: 0;
+  left: -34px;
+}
+
+.main-section,
+.main-header,
+.home-text,
+.connect {
+  margin: 102px 24px auto 24px;
+  min-width: 375px;
 }
 
 .main-header {
@@ -63,7 +71,6 @@ body {
   line-height: 52px;
   align-items: center;
   color: #172b4d;
-  padding: 0 24px 0 24px;
 }
 
 .home-text {
@@ -74,19 +81,17 @@ body {
   line-height: 24px;
   color: #344563;
   margin-top: 12px;
-  padding: 0 24px 0 24px;
 }
 
 /* LET’S CONNECT */
 .connect {
   margin-top: 12px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
-  padding: 0 24px 0 24px;
 }
 
 /* social media icons */
