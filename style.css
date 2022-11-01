@@ -239,7 +239,6 @@ body {
   font-size: 17px;
   line-height: 24px;
 }
-
 .buttonProject:hover {
   background-color: #a2b7e6;
 }
@@ -247,7 +246,6 @@ body {
 .buttonProject:enabled {
   opacity: 0.4;
 }
-
 button:hover {
   background: lime;
 }
