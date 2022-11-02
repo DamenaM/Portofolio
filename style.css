@@ -246,8 +246,52 @@ body {
   line-height: 0px;
   color: #172b4d;
 }
+.tonic2 {
+  width: 350px;
+height: 9px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+display: flex;
+align-items: center;
+color: #172B4D;
+padding-right: 80px;
+padding-left: 20px;
 
+}
+.tonic3 {
+  width: 350px;
+height: 9px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+display: flex;
+align-items: center;
+color: #172B4D;
+padding-right: 80px;
+padding-left: 20px;
+
+}
+.tonic4 {
+  width: 327px;
+height: 101px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+display: flex;
+align-items: center;
+color: #172B4D;
+padding-right: 80px;
+
+}
 .section1 {
+  
   width: 295px;
   height: 76px;
   font-family: 'Poppins', sans-serif;
@@ -256,6 +300,7 @@ body {
   font-size: 15px;
   line-height: 24px;
   color: #344563;
+
 }
 
 .canopy {
@@ -317,7 +362,7 @@ body {
   left: 0;
   border: 1px solid #6070ff;
   border-radius: 8px;
-  margin-left: 40px;
+  margin-left: 35px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -371,6 +416,11 @@ body {
   flex-direction: column;
   gap: 5px;
 }
+.aboutsection
+{
+  margin-left: 24px;
+  
+}
 
 .Programs {
   width: 100px;
@@ -396,7 +446,7 @@ body {
 
 /* social media icons */
 .social-icons-mywork {
-  margin-right: 80px;
+  margin-right: 50px;
   margin-top: 12px;
   list-style: none;
   display: flex;
