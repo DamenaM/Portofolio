@@ -246,52 +246,52 @@ body {
   line-height: 0px;
   color: #172b4d;
 }
+
 .tonic2 {
   width: 350px;
-height: 9px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 52px;
-display: flex;
-align-items: center;
-color: #172B4D;
-padding-right: 80px;
-padding-left: 20px;
-
+  height: 9px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  padding-right: 80px;
+  padding-left: 20px;
 }
+
 .tonic3 {
   width: 350px;
-height: 9px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 52px;
-display: flex;
-align-items: center;
-color: #172B4D;
-padding-right: 80px;
-padding-left: 20px;
-
+  height: 9px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  padding-right: 80px;
+  padding-left: 20px;
 }
+
 .tonic4 {
   width: 327px;
-height: 101px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 52px;
-display: flex;
-align-items: center;
-color: #172B4D;
-padding-right: 80px;
-
+  height: 101px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  padding-right: 80px;
 }
+
 .section1 {
-  
   width: 295px;
   height: 76px;
   font-family: 'Poppins', sans-serif;
@@ -300,7 +300,6 @@ padding-right: 80px;
   font-size: 15px;
   line-height: 24px;
   color: #344563;
-
 }
 
 .canopy {
@@ -416,10 +415,9 @@ padding-right: 80px;
   flex-direction: column;
   gap: 5px;
 }
-.aboutsection
-{
+
+.aboutsection {
   margin-left: 24px;
-  
 }
 
 .Programs {
