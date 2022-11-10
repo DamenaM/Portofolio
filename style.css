@@ -163,11 +163,8 @@ body {
   border: 0 solid #bbbcc0;
   background-color: #6070ff;
   border-top-left-radius: 50px;
- }
- .background1 {
-  
-  
- }
+}
+
 .card1 {
   width: 295px;
   height: 220px;
@@ -457,7 +454,7 @@ body {
 }
 
 .button1:hover {
-  background-color: #4175d6;
+  background-color: #9fbcf1;
   color: rgb(243, 243, 245);
 }
 
