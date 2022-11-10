@@ -148,18 +148,26 @@ body {
 }
 
 .cardcontact {
-  margin-top: 24px;
+  margin-top: 22px;
+  background-size: 230px;
+  background-position: right;
+  background-image: url('./image/contact\ form\ 05.png');
+  background-repeat: no-repeat;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 16px;
   width: 375px;
-  height: 776px;
-  background: #6070ff;
-  border-top-left-radius: 67px;
-}
-
+  height: 779px;
+  border: 0 solid #bbbcc0;
+  background-color: #6070ff;
+  border-top-left-radius: 50px;
+ }
+ .background1 {
+  
+  
+ }
 .card1 {
   width: 295px;
   height: 220px;
