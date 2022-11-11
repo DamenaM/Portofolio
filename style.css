@@ -141,10 +141,28 @@ body {
   align-items: center;
   padding: 16px;
   width: 375px;
-  height: 877px;
+  height: 876px;
   background: #fff;
   border: 1px solid #dfe1e6;
   border-top-right-radius: 67px;
+}
+
+.cardcontact {
+  margin-top: 22px;
+  background-size: 230px;
+  background-position: right;
+  background-image: url('./image/contact\ form\ 05.png');
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  width: 375px;
+  height: 779px;
+  border: 0 solid #bbbcc0;
+  background-color: #6070ff;
+  border-top-left-radius: 50px;
 }
 
 .card1 {
@@ -291,6 +309,57 @@ body {
   padding-right: 80px;
 }
 
+.contactme {
+  margin-top: 103px;
+  width: 327px;
+  height: 56px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #f5f7fa;
+  padding-right: 80px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 24px;
+  margin-right: 24px;
+  width: 330px;
+  height: 50px;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+}
+
+.form-group2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 24px;
+  margin-right: 24px;
+  width: 330px;
+  height: 175px;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  left: 16px;
+  right: 38px;
+  top: 15px;
+  bottom: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #b3bac5;
+}
+
 .section1 {
   width: 295px;
   height: 76px;
@@ -300,6 +369,17 @@ body {
   font-size: 15px;
   line-height: 24px;
   color: #344563;
+}
+
+.sectioncontact {
+  width: 295px;
+  height: 76px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #f6f8fa;
 }
 
 .canopy {
@@ -374,12 +454,26 @@ body {
 }
 
 .button1:hover {
-  background-color: #4175d6;
+  background-color: #c3d5f7;
   color: rgb(243, 243, 245);
 }
 
 .buttonsee {
   margin-bottom: 20px;
+}
+
+.buttonsee2 {
+  margin-top: 28px;
+}
+
+.texform {
+  height: 50px;
+  border-radius: 8px;
+}
+
+.texform2 {
+  height: 174px;
+  border-radius: 8px;
 }
 
 .works2 {
@@ -467,4 +561,15 @@ body {
   height: 66.72px;
   list-style: none;
   margin-right: 240px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  height: 20rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.3rem;
+  border: 1px solid rgb(223, 13, 13);
+  margin-top: 1rem;
 }
