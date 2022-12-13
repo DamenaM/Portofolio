@@ -183,10 +183,12 @@ body {
   padding-right: 108px;
   padding-left: 28px;
 }
+
 .program1 li {
   float: left;
   justify-content: center;
 }
+
 .works {
   display: flex;
   flex-direction: row;
@@ -227,7 +229,7 @@ body {
   gap: 20px;
   list-style: none;
   border-radius: 8px;
-   align-items: center;
+  align-items: center;
   padding: 4px 12px;
 }
 
