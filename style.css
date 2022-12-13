@@ -606,14 +606,9 @@ body {
 .button1 {
   background-color: #fff;
   box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 10px;
   position: absolute;
   width: 182px;
   height: 42px;
-  padding-bottom: 16px;
   left: 0;
   border: 1px solid #6070ff;
   border-radius: 8px;
@@ -623,7 +618,6 @@ body {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  padding-left: 30px;
   text-align: center;
   letter-spacing: 0.03em;
   color: #396df2;
@@ -685,11 +679,16 @@ body {
 .texform {
   height: 50px;
   border-radius: 8px;
+  justify-content: center;
+  padding-left: 15px;
 }
 
 .texform2 {
   height: 174px;
   border-radius: 8px;
+  justify-content: center;
+  padding-left: 15px;
+  padding-top: 20px;
 }
 
 .works2 {
